@@ -22,7 +22,7 @@
         <li><a href="foto.php">Foto</a></li>
         <li><a href="logout.php">Logout</a></li>
     </ul>
-
+<!--  -->
     <form action="tambah_album.php" method="post">
         <table>
             <tr>

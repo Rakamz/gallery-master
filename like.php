@@ -8,7 +8,7 @@
     }else{
         $fotoid=$_GET['fotoid'];
         $userid=$_SESSION['userid'];
-        //Cek apakah user sudah pernah like foto ini apa belum
+        //Cek apakah user sudah pernah like foto ini apa belum  
 
         $sql=mysqli_query($conn,"select * from likefoto where fotoid='$fotoid' and userid='$userid'");
 
